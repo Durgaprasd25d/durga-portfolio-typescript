@@ -1,32 +1,36 @@
 import { ImGithub, ImLinkedin } from "react-icons/im";
-import { FaTwitter } from "react-icons/fa";
-import { SiInstagram } from "react-icons/si";
+import { CgProfile } from "react-icons/cg";
+import cv from "../assets/Durga_resume.pdf";
 
 interface LinksType {
   title: string;
   icon: any;
   link: string;
+  handleDownload?: () => void;
 }
 
 export const LinksData: LinksType[] = [
   {
     title: "GitHub",
-    icon: <ImGithub color='#000000dc' />,
+    icon: <ImGithub color="#000000dc" />,
     link: "https://github.com/Durgaprasd25d/",
   },
   {
     title: "LinkedIn",
-    icon: <ImLinkedin color='#000000dc' />,
+    icon: <ImLinkedin color="#000000dc" />,
     link: "https://www.linkedin.com/in/durga-prasad-dalai-6a596723b/",
-  }
-  // {
-  //   title: "Twitter",
-  //   icon: <FaTwitter color='#000000dc' />,
-  //   link: "",
-  // },
-  // {
-  //   title: "Instagram",
-  //   icon: <SiInstagram color='#000000dc' />,
-  //   link: "",
-  // },
+  },
+  {
+    title: "CV",
+    icon: <CgProfile color="#000000dc" />,
+    link: "",
+    handleDownload: () => {
+      const link = document.createElement("a");
+      link.href = cv;
+      link.setAttribute("download", "Durga_resume.pdf");
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    },
+  },
 ];
