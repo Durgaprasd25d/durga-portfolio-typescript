@@ -4,7 +4,7 @@
 
 ## 📷 Screenshot
 <p align="center">
-  <a src="https://talented-durga.netlify.app/" target="_blank"><img src="./src/assets/example.png" width="800" height="auto" /></a>
+  <a src="https://talented-durga.netlify.app/" target="_blank"><img src="./src//assets/example.png" width="800" height="auto" /></a>
 </p>
 
 
