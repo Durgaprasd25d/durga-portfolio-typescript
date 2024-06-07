@@ -20,6 +20,9 @@ yarn-error.log*
 # TypeScript cache
 *.tsbuildinfo
 
+# build folder
+build/
+
 # Optional: Ignore editor-specific files
 # VS Code
 .vscode/
