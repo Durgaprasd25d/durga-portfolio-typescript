@@ -1,6 +1,7 @@
 import { FaReact, FaNodeJs, FaHtml5, FaSass } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
+import { GrGraphQl } from "react-icons/gr";
 import {
   SiRedux,
   SiCss3,
@@ -71,6 +72,11 @@ export const SkillsData: SkillsType[] = [
     name: "Node.js",
     icon: <FaNodeJs color="#000000dc" />,
     link: "https://nodejs.org/",
+  },
+  {
+    name: "GraphQL",
+    icon: <GrGraphQl color="#000000dc" />,
+    link: "https://graphql.org/",
   },
   {
     name: "Express.js",

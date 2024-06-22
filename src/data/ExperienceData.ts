@@ -1,3 +1,11 @@
+import todoListImage from "../images/todoList.png";
+import weatherCheckerImage from "../images/weather.png";
+import paddhoAdmin from "../images/PaddhoAdmin.png";
+import paddhoTeacher from "../images/PaddhoTeacher.png";
+import paddhoStudent from "../images/PaddhoStudent.png";
+import grtcAdmin from "../images/grtc-admin-2.png";
+import jobApp from '../images/frontend1.png';
+
 interface ExperienceDataType {
   title: string;
   date: string;
@@ -61,6 +69,17 @@ export const ExperienceData: ExperienceDataType[] = [
       "Utilized React.js, Express, MongoDB, and Node.js for development",
       "Project name: Gurukrupa Admin",
       "Project duration: Mar 2024 to Jun 2024",
+    ],
+  },
+  {
+    title: "Freelance Developer | Job | Board",
+    date: "Jun 2024 - Jul 2024",
+    details: [
+      "Developed Job | Board, a React-based frontend application for a job marketplace platform",
+      "Implemented user registration, login, profile management, job listing creation, job application functionality, notifications, and admin panel features",
+      "Designed and integrated modern UI/UX elements for enhanced user experience",
+      "Utilized React.js, TypeScript, Tailwind CSS, Firebase for authentication and storage, and deployed on Netlify",
+      "Ongoing project since Jun 2024",
     ],
   },
 ];

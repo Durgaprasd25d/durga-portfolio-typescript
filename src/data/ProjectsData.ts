@@ -4,6 +4,7 @@ import paddhoAdmin from "../images/PaddhoAdmin.png";
 import paddhoTeacher from "../images/PaddhoTeacher.png";
 import paddhoStudent from "../images/PaddhoStudent.png";
 import grtcAdmin from "../images/grtc-admin-2.png";
+import jobApp from '../images/frontend1.png'
 
 interface ProjectsType {
   title: string;
@@ -55,5 +56,12 @@ export const ProjectsData: ProjectsType[] = [
     image: grtcAdmin,
     GitHub: "https://github.com/Durgaprasd25d/gurukrupa-admin",
     hosted: `https://gurukrupa-admin.netlify.app/`,
+  },
+  {
+    title: "Job | Board",
+    description: `This React-based frontend application serves as the interface for a job marketplace platform. Users can register, login, manage profiles, create job listings, apply for jobs, receive notifications, and manage roles through an admin panel. The application provides a seamless user experience with modern design and animations.`,
+    image: jobApp,
+    GitHub: "https://github.com/Durgaprasd25d/job-finding-app.git",
+    hosted: `https://job-pulse.netlify.app`,
   },
 ];
