@@ -5,6 +5,7 @@ import paddhoTeacher from "../images/PaddhoTeacher.png";
 import paddhoStudent from "../images/PaddhoStudent.png";
 import grtcAdmin from "../images/grtc-admin-2.png";
 import jobApp from '../images/frontend1.png'
+import inovatex from '../images/inovatex.png'
 
 interface ProjectsType {
   title: string;
@@ -15,20 +16,6 @@ interface ProjectsType {
 }
 
 export const ProjectsData: ProjectsType[] = [
-  {
-    title: "React Todo List",
-    description: `A simple to-do list app powered by React, Chakra UI, React icons. Save in Local Storage`,
-    image: todoListImage,
-    GitHub: "https://github.com/Durgaprasd25d/react-todo",
-    hosted: "https://task-tamer.netlify.app/",
-  },
-  {
-    title: "React weather checker",
-    description: `A weather checker app powered by React, Vite, TailWind, Swr, PropType, Dark mode`,
-    image: weatherCheckerImage,
-    GitHub: "https://github.com/Durgaprasd25d/weather-checker",
-    hosted: `https://waether-checker-app.netlify.app/`,
-  },
   {
     title: "Paddho Admin",
     description: `A comprehensive admin tool developed for managing educational operations.`,
@@ -64,4 +51,12 @@ export const ProjectsData: ProjectsType[] = [
     GitHub: "https://github.com/Durgaprasd25d/job-finding-app.git",
     hosted: `https://job-pulse.netlify.app`,
   },
+  {
+    title: "Innovate X",
+    description: `A dedicated platform where college students can register for hackathons, receive updates, and track events seamlessly.`,
+    image: inovatex,
+    GitHub: "https://github.com/Durgaprasd25d/inovatex.git",
+    hosted: `https://inovx.netlify.app/`,
+  },
 ];
+

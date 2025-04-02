@@ -1,6 +1,6 @@
 import { ImGithub, ImLinkedin } from "react-icons/im";
 import { CgProfile } from "react-icons/cg";
-import cv from "../assets/Durga_resume.pdf";
+import cv from "../assets/DurgaprasadDalai.pdf";
 
 interface LinksType {
   title: string;
